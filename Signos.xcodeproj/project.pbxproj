@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1EA8EFD233BFD10003D9912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA8EFC233BFD10003D9912 /* AppDelegate.swift */; };
+		A1EA8EFF233BFD10003D9912 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA8EFE233BFD10003D9912 /* SceneDelegate.swift */; };
+		A1EA8F01233BFD10003D9912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA8F00233BFD10003D9912 /* ViewController.swift */; };
+		A1EA8F04233BFD10003D9912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EA8F02233BFD10003D9912 /* Main.storyboard */; };
+		A1EA8F07233BFD10003D9912 /* Signos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1EA8F05233BFD10003D9912 /* Signos.xcdatamodeld */; };
+		A1EA8F09233BFD12003D9912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EA8F08233BFD12003D9912 /* Assets.xcassets */; };
+		A1EA8F0C233BFD12003D9912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EA8F0A233BFD12003D9912 /* LaunchScreen.storyboard */; };
+		A1EA8F17233BFD12003D9912 /* SignosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA8F16233BFD12003D9912 /* SignosTests.swift */; };
+		A1EA8F22233BFD12003D9912 /* SignosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA8F21233BFD12003D9912 /* SignosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1EA8F13233BFD12003D9912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1EA8EF1233BFD10003D9912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EA8EF8233BFD10003D9912;
+			remoteInfo = Signos;
+		};
+		A1EA8F1E233BFD12003D9912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1EA8EF1233BFD10003D9912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EA8EF8233BFD10003D9912;
+			remoteInfo = Signos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1EA8EF9233BFD10003D9912 /* Signos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EA8EFC233BFD10003D9912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1EA8EFE233BFD10003D9912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1EA8F00233BFD10003D9912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1EA8F03233BFD10003D9912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1EA8F06233BFD10003D9912 /* Signos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Signos.xcdatamodel; sourceTree = "<group>"; };
+		A1EA8F08233BFD12003D9912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1EA8F0B233BFD12003D9912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1EA8F0D233BFD12003D9912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EA8F12233BFD12003D9912 /* SignosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EA8F16233BFD12003D9912 /* SignosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignosTests.swift; sourceTree = "<group>"; };
+		A1EA8F18233BFD12003D9912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EA8F1D233BFD12003D9912 /* SignosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EA8F21233BFD12003D9912 /* SignosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignosUITests.swift; sourceTree = "<group>"; };
+		A1EA8F23233BFD12003D9912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1EA8EF6233BFD10003D9912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EA8F0F233BFD12003D9912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EA8F1A233BFD12003D9912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1EA8EF0233BFD10003D9912 = {
+			isa = PBXGroup;
+			children = (
+				A1EA8EFB233BFD10003D9912 /* Signos */,
+				A1EA8F15233BFD12003D9912 /* SignosTests */,
+				A1EA8F20233BFD12003D9912 /* SignosUITests */,
+				A1EA8EFA233BFD10003D9912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EA8EFA233BFD10003D9912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA8EF9233BFD10003D9912 /* Signos.app */,
+				A1EA8F12233BFD12003D9912 /* SignosTests.xctest */,
+				A1EA8F1D233BFD12003D9912 /* SignosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EA8EFB233BFD10003D9912 /* Signos */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA8EFC233BFD10003D9912 /* AppDelegate.swift */,
+				A1EA8EFE233BFD10003D9912 /* SceneDelegate.swift */,
+				A1EA8F00233BFD10003D9912 /* ViewController.swift */,
+				A1EA8F02233BFD10003D9912 /* Main.storyboard */,
+				A1EA8F08233BFD12003D9912 /* Assets.xcassets */,
+				A1EA8F0A233BFD12003D9912 /* LaunchScreen.storyboard */,
+				A1EA8F0D233BFD12003D9912 /* Info.plist */,
+				A1EA8F05233BFD10003D9912 /* Signos.xcdatamodeld */,
+			);
+			path = Signos;
+			sourceTree = "<group>";
+		};
+		A1EA8F15233BFD12003D9912 /* SignosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA8F16233BFD12003D9912 /* SignosTests.swift */,
+				A1EA8F18233BFD12003D9912 /* Info.plist */,
+			);
+			path = SignosTests;
+			sourceTree = "<group>";
+		};
+		A1EA8F20233BFD12003D9912 /* SignosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA8F21233BFD12003D9912 /* SignosUITests.swift */,
+				A1EA8F23233BFD12003D9912 /* Info.plist */,
+			);
+			path = SignosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1EA8EF8233BFD10003D9912 /* Signos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EA8F26233BFD12003D9912 /* Build configuration list for PBXNativeTarget "Signos" */;
+			buildPhases = (
+				A1EA8EF5233BFD10003D9912 /* Sources */,
+				A1EA8EF6233BFD10003D9912 /* Frameworks */,
+				A1EA8EF7233BFD10003D9912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signos;
+			productName = Signos;
+			productReference = A1EA8EF9233BFD10003D9912 /* Signos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1EA8F11233BFD12003D9912 /* SignosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EA8F29233BFD12003D9912 /* Build configuration list for PBXNativeTarget "SignosTests" */;
+			buildPhases = (
+				A1EA8F0E233BFD12003D9912 /* Sources */,
+				A1EA8F0F233BFD12003D9912 /* Frameworks */,
+				A1EA8F10233BFD12003D9912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EA8F14233BFD12003D9912 /* PBXTargetDependency */,
+			);
+			name = SignosTests;
+			productName = SignosTests;
+			productReference = A1EA8F12233BFD12003D9912 /* SignosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1EA8F1C233BFD12003D9912 /* SignosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EA8F2C233BFD12003D9912 /* Build configuration list for PBXNativeTarget "SignosUITests" */;
+			buildPhases = (
+				A1EA8F19233BFD12003D9912 /* Sources */,
+				A1EA8F1A233BFD12003D9912 /* Frameworks */,
+				A1EA8F1B233BFD12003D9912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EA8F1F233BFD12003D9912 /* PBXTargetDependency */,
+			);
+			name = SignosUITests;
+			productName = SignosUITests;
+			productReference = A1EA8F1D233BFD12003D9912 /* SignosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EA8EF1233BFD10003D9912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Gabriella Messias Aleo";
+				TargetAttributes = {
+					A1EA8EF8233BFD10003D9912 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A1EA8F11233BFD12003D9912 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A1EA8EF8233BFD10003D9912;
+					};
+					A1EA8F1C233BFD12003D9912 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A1EA8EF8233BFD10003D9912;
+					};
+				};
+			};
+			buildConfigurationList = A1EA8EF4233BFD10003D9912 /* Build configuration list for PBXProject "Signos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1EA8EF0233BFD10003D9912;
+			productRefGroup = A1EA8EFA233BFD10003D9912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EA8EF8233BFD10003D9912 /* Signos */,
+				A1EA8F11233BFD12003D9912 /* SignosTests */,
+				A1EA8F1C233BFD12003D9912 /* SignosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1EA8EF7233BFD10003D9912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA8F0C233BFD12003D9912 /* LaunchScreen.storyboard in Resources */,
+				A1EA8F09233BFD12003D9912 /* Assets.xcassets in Resources */,
+				A1EA8F04233BFD10003D9912 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EA8F10233BFD12003D9912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EA8F1B233BFD12003D9912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1EA8EF5233BFD10003D9912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA8F01233BFD10003D9912 /* ViewController.swift in Sources */,
+				A1EA8EFD233BFD10003D9912 /* AppDelegate.swift in Sources */,
+				A1EA8F07233BFD10003D9912 /* Signos.xcdatamodeld in Sources */,
+				A1EA8EFF233BFD10003D9912 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EA8F0E233BFD12003D9912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA8F17233BFD12003D9912 /* SignosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EA8F19233BFD12003D9912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA8F22233BFD12003D9912 /* SignosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1EA8F14233BFD12003D9912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1EA8EF8233BFD10003D9912 /* Signos */;
+			targetProxy = A1EA8F13233BFD12003D9912 /* PBXContainerItemProxy */;
+		};
+		A1EA8F1F233BFD12003D9912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1EA8EF8233BFD10003D9912 /* Signos */;
+			targetProxy = A1EA8F1E233BFD12003D9912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1EA8F02233BFD10003D9912 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EA8F03233BFD10003D9912 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1EA8F0A233BFD12003D9912 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EA8F0B233BFD12003D9912 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1EA8F24233BFD12003D9912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1EA8F25233BFD12003D9912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1EA8F27233BFD12003D9912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMXN7T5J72;
+				INFOPLIST_FILE = Signos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Signos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1EA8F28233BFD12003D9912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMXN7T5J72;
+				INFOPLIST_FILE = Signos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Signos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1EA8F2A233BFD12003D9912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMXN7T5J72;
+				INFOPLIST_FILE = SignosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SignosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signos.app/Signos";
+			};
+			name = Debug;
+		};
+		A1EA8F2B233BFD12003D9912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMXN7T5J72;
+				INFOPLIST_FILE = SignosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SignosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signos.app/Signos";
+			};
+			name = Release;
+		};
+		A1EA8F2D233BFD12003D9912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMXN7T5J72;
+				INFOPLIST_FILE = SignosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SignosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Signos;
+			};
+			name = Debug;
+		};
+		A1EA8F2E233BFD12003D9912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMXN7T5J72;
+				INFOPLIST_FILE = SignosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SignosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Signos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1EA8EF4233BFD10003D9912 /* Build configuration list for PBXProject "Signos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EA8F24233BFD12003D9912 /* Debug */,
+				A1EA8F25233BFD12003D9912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EA8F26233BFD12003D9912 /* Build configuration list for PBXNativeTarget "Signos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EA8F27233BFD12003D9912 /* Debug */,
+				A1EA8F28233BFD12003D9912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EA8F29233BFD12003D9912 /* Build configuration list for PBXNativeTarget "SignosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EA8F2A233BFD12003D9912 /* Debug */,
+				A1EA8F2B233BFD12003D9912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EA8F2C233BFD12003D9912 /* Build configuration list for PBXNativeTarget "SignosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EA8F2D233BFD12003D9912 /* Debug */,
+				A1EA8F2E233BFD12003D9912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1EA8F05233BFD10003D9912 /* Signos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1EA8F06233BFD10003D9912 /* Signos.xcdatamodel */,
+			);
+			currentVersion = A1EA8F06233BFD10003D9912 /* Signos.xcdatamodel */;
+			path = Signos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1EA8EF1233BFD10003D9912 /* Project object */;
+}
